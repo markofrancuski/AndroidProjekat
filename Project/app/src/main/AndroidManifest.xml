@@ -9,7 +9,82 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        
+
+        <!-- Contact Activity -->
+        <activity
+            android:name=".activities.contacts.ContactActivity"
+            android:label= "Contact Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".activities.contacts.ContactsActivity"
+            android:label= "Contacts Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".activities.contacts.CreateContactActivity"
+            android:label= "CreateContact Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+
+        <!-- Email Activity -->
+        <activity
+            android:name=".activities.emails.CreateEmailActivity"
+            android:label= "Create Email Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".activities.emails.EmailActivity"
+            android:label= "Email Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".activities.emails.EmailsActivity"
+            android:label= "Emails Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+
+        <!-- Folder Activity -->
+        <activity
+            android:name=".activities.folders.CreateFolderActivity"
+            android:label= "Create Folder Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".activities.folders.FolderActivity"
+            android:label= "Folder Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".activities.folders.FoldersActivity"
+            android:label= "Folders Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label= "Login Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+
+
+        <!-- Profile Activity -->
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label= "Settings Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:label= "Profile Activity"
+            android:theme= "@style/AppTheme">
+        </activity>
+
+
+        <!-- Splash Activity or Main Activity that will be first shown in our App.-->
         <activity
             android:name=".activities.SplashActivity"
             android:label= "Email Application"
@@ -21,7 +96,4 @@
         </activity>
 
     </application>
-
-
-
 </manifest>
