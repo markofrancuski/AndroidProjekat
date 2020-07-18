@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20dp"
+        android:text="This is a Emails Activity"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Contact"/>
+    <Button
+        android:id="@+id/btn_createContact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Create Contact"/>
+    <Button
+        android:id="@+id/btn_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Contacts"/>
+    <Button
+        android:id="@+id/btn_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Email"/>
+    <Button
+        android:id="@+id/btn_emails"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Emails"/>
+    <Button
+        android:id="@+id/btn_createEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Create Email"/>
+    <Button
+        android:id="@+id/btn_createFolder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Create Folder"/>
+    <Button
+        android:id="@+id/btn_folder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Folder"/>
+    <Button
+        android:id="@+id/btn_folders"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Folders"/>
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Profile"/>
+    <Button
+        android:id="@+id/btn_settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Settings"/>
+
+</LinearLayout>

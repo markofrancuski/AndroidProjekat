@@ -1,0 +1,30 @@
+<resources>
+    <!-- Refresh Settings Preference -->
+    <string-array name="refresh_entries">
+        <item>1 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>1 h</item>
+        <item>10 h</item>
+    </string-array>
+
+    <string-array name="refresh_values">
+        <item>1min</item>
+        <item>5min</item>
+        <item>10min</item>
+        <item>1h</item>
+        <item>10h</item>
+    </string-array>
+
+    <!-- Sort Settings Preference -->
+    <string-array name="sort_entries">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+    <string-array name="sort_values">
+        <item>ascending</item>
+        <item>descending</item>
+    </string-array>
+
+</resources>
