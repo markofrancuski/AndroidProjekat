@@ -61,11 +61,6 @@ public class EmailsActivity  extends AppCompatActivity {
         Intent intent = new Intent(EmailsActivity.this, EmailActivity.class);
         startActivity(intent);
     }
-    public void StartEmailsActivity()
-    {
-        Intent intent = new Intent(EmailsActivity.this, EmailsActivity.class);
-        startActivity(intent);
-    }
     public void StartCreateFolderActivity()
     {
         Intent intent = new Intent(EmailsActivity.this, CreateFolderActivity.class);
@@ -96,17 +91,11 @@ public class EmailsActivity  extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Toast.makeText(EmailsActivity.this, "Usao sam ti u kevu", Toast.LENGTH_SHORT).show();
         setContentView(R.layout.activity_emails);
-
-
-        Toast.makeText(EmailsActivity.this, "Usao sam ti u kevu1", Toast.LENGTH_SHORT).show();
 
         // Setting up the Toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        Toast.makeText(EmailsActivity.this, "Usao sam ti u kevu 2", Toast.LENGTH_SHORT).show();
 
         btn_Contacts = (Button) findViewById(R.id.btn_contacts);
         btn_Contacts.setOnClickListener(new View.OnClickListener() {
@@ -141,14 +130,6 @@ public class EmailsActivity  extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 StartEmailActivity();
-            }
-        });
-
-        btn_Emails = (Button) findViewById(R.id.btn_emails);
-        btn_Emails.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                StartEmailsActivity();
             }
         });
 

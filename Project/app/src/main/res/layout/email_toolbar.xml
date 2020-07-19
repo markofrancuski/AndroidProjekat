@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorAccent"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="horizontal"
+    >
+
+    <!-- Go Back To Emails Activity -->
+    <Button
+        android:id="@+id/btn_goBackFromEmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/backstrelica"
+        android:layout_marginRight="15dp"
+        >
+
+    </Button>
+
+    <!-- Save Attachment Button -->
+    <Button
+        android:id="@+id/btn_saveEmailAttachment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/savedugme"
+        android:layout_marginRight="15dp"
+        >
+
+    </Button>
+
+    <!-- Delete Email Button -->
+    <Button
+        android:id="@+id/btn_deleteEmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/deletedugme"
+        android:layout_marginRight="15dp"
+        >
+
+    </Button>
+
+    <!-- Reply Button -->
+    <Button
+        android:id="@+id/btn_replyToEmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/replydugme"
+        android:layout_marginRight="15dp"
+        >
+
+    </Button>
+
+    <!-- Reply To All Button -->
+    <Button
+        android:id="@+id/btn_replyToAllEmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/replyalldugme"
+        android:layout_marginRight="15dp"
+        >
+
+    </Button>
+
+    <!-- Forward Email Button -->
+    <Button
+        android:id="@+id/btn_forwardEmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/forwardemaildugme"
+        >
+
+    </Button>
+
+</androidx.appcompat.widget.Toolbar>

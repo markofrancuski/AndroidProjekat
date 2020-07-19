@@ -16,4 +16,12 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+    <!-- Email Activity String Values -->
+    <string name="email_FromValue">From: Marko Francuski </string>
+    <string name="email_SubjectValue">Subject: Test Naslov </string>
+    <string name="email_ContentValue">Content: Ovo je moj placeholder content koji je ustvari mail i ovo se pise email i tako da!</string>
+
+
 </resources>

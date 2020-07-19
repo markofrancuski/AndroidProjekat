@@ -32,7 +32,6 @@ public class LoginActivity  extends AppCompatActivity {
         btn_startEmailsActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(LoginActivity.this, "Stisno sam mamu ti jebem", Toast.LENGTH_SHORT).show();
                 OpenEmailsActivity();
             }
         });
